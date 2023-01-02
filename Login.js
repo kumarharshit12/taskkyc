@@ -148,7 +148,7 @@ const Login = () => {
             <h1>KYC  <span style={{color:"red"}}>Update</span></h1>
             <div style={{background:"#fff9e7"}} >
             <form onSubmit={handleSubmit}>
-              <p>Personal  <span style={{color:"red"}}>Details</span></p>
+              {/* <p>Personal  <span style={{color:"red"}}>Details</span></p> */}
               
                 <input type='text' placeholder='First Name' name='fname' value={fname} onChange={handleChnage} />
                 <span style={{ color: "red", fontSize: "14px" }}>{errors?.nameError}</span>
